@@ -1,5 +1,6 @@
 ---
 ---
+
 // variables, functions and mixins
 @import 'helpers/module';
 @import 'font-awesome/font-awesome';
@@ -9,8 +10,6 @@
 @import 'hacks/shame';
 //specific layouts
 @import 'layout/module';
-//each page layout and specific overrides
-@import 'pages/module';
 //elemental seriously
 @import 'partials/module';
 
