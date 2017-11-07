@@ -1,0 +1,98 @@
+div {
+    &.wraper {
+        padding-bottom: 10rem;
+        padding-top: 2rem;
+        @include vertical-break-small {
+            padding-bottom: 2rem;
+        }
+        @include vertical-break-medium {
+            padding-bottom: 4rem;
+        }
+        @include vertical-break-large {
+            padding-bottom: 6rem;
+        }
+        @include vertical-break-xlarge {
+            padding-bottom: 8rem;
+        }
+    }
+}
+
+.wraper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+article footer {
+    display: block;
+    height: 4rem;
+    margin-bottom: 5rem;
+    @include vertical-break-small {
+        margin-bottom: 1rem;
+    }
+    @include vertical-break-medium {
+        margin-bottom: 3rem;
+    }
+}
+
+.flex-column-container {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.flex-column-container>* {
+    align-self: flex-start;
+    padding: 0;
+}
+
+.trabalhos {
+    max-width: $max-width;
+    min-width: $min-width;
+    margin: 0 auto;
+    padding-top: 2rem;
+    margin-top: 3rem;
+    @include vertical-break-small {
+        margin-top: 0;
+    }
+}
+
+.contactos {
+    max-width: $max-width;
+    min-width: $min-width;
+    margin: 0 auto;
+    padding-top: 2rem;
+    margin-top: 2rem;
+}
+
+.filosofia {
+    max-width: $max-width;
+    min-width: $min-width;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    overflow: hidden;
+}
+
+.filosofia .row {
+    margin-bottom: 14rem;
+    @include vertical-break-small {
+        margin-bottom: 6rem;
+    }
+    @include vertical-break-medium {
+        margin-bottom: 10rem;
+    }
+}
+
+.row:last-child {
+    margin-bottom: 0rem;
+}
+
+.contactos .wraper {
+    background-color: $primary-color;
+    width: 100%;
+    margin: 0 auto;
+}
+

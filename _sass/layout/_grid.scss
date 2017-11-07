@@ -1,0 +1,25 @@
+.l-wraper,
+.row {
+    @include clearfix;
+    width: 95%;
+    margin: 0 auto;
+}
+
+[class*='column-'] {
+    float: left;
+    padding: 1em;
+    width: 100%;
+    min-height: 1px;
+}
+
+@media #{$breakpoint-grid} {
+    .l-wrapper {
+        width: 95%;
+        max-width: $max-width;
+    }
+    @for $i from 1 through $grid-columns {
+        .column-#{$i}-of-#{$grid-columns} {
+            width: 100% / $grid-columns * $i;
+        }
+    }
+}

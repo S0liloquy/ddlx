@@ -1,0 +1,66 @@
+$img-url:"images/";
+
+@mixin background-image-retina($file, $type) {
+    $image: ($img-url + $file + '.' + $type);
+    background-image: url($image);
+    background-size: 100% 100%;
+    background-size: cover;
+    @media only screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+        $image2x: ($img-url + $file + '@2x.' + $type);
+        background-image: url($image2x);
+        max-width: 100%;
+        background-size: 100% 100%;
+        background-size: cover;
+    }
+}
+
+@mixin retina-replacement($file, $type) {
+    @include background-image-retina($file, $type);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+}
+
+.imagem {
+    width: 100%;
+    max-width: 1200px;
+    padding-top: 66.66%;
+}
+
+
+
+.lilia {
+    @include retina-replacement(filosofia/lilia, jpg);
+}
+
+.joao {
+    @include retina-replacement(filosofia/joao, jpg);
+}
+
+.teofilo {
+    @include retina-replacement(filosofia/teofilo, jpg);
+}
+
+.glosas {
+    @include retina-replacement(trabalhos/glosas, jpg);
+}
+
+.epicur {
+    @include retina-replacement(trabalhos/epicur, jpg);
+}
+
+.gulbenkian {
+    @include retina-replacement(trabalhos/news_gulbenkian, jpg);
+}
+
+.amnaz {
+    @include retina-replacement(trabalhos/museu_nacional_azulejo, jpg);
+}
+
+.logotipo {
+    @include replace-img("images/logo_ddlx.svg", 5rem, auto);
+    
+}// porreiro porreiro seria se isto populasse de forma automática || ver se há alguma forma de dado um elemento podermos extrair um atributo (attr(img, src)?)

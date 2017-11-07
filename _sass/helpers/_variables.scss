@@ -1,0 +1,90 @@
+@function strip-unit($number) {
+    @if type-of($number)=='number' and not unitless($number) {
+        @return $number / ($number * 0 + 1); //divides by 1 of the same unit
+    }
+    @return $number;
+}
+
+@function px-to-rem($size) {
+    $size: strip-unit($size);
+    $remSize: $size / 16;
+    @return #{$remSize}rem;
+}
+
+$min-width:px-to-rem(240px);
+$max-width:px-to-rem(1440px);
+////////////////////////////TYPOGRAPHY/////////////////////////////
+
+/*****************************************************************
+*****************************************************************/
+
+/////////////////////////////////////////////////////////////////
+//SIZES HEIGHTS AND BREAKPOINTS
+$rwd-typography: ( 
+    default: ( base-font-size: 1rem, vertical-rhythm: 1.414, type-scale: 1.2, min-width: 8rem), 
+    medium: ( base-font-size: 1.2rem, vertical-rhythm: 1.5, type-scale: 1.5, min-width: 30rem), 
+    large: ( base-font-size: 1.3rem, vertical-rhythm: 1.618, type-scale: 1.6, min-width: 60rem), 
+    xlarge: ( base-font-size: 1.4rem, vertical-rhythm: 1.618, type-scale: 1.8, min-width: 81.25rem));
+
+
+
+$rwd-scale-labels: (p, bq, sh, h, hero, super-hero);
+
+//WEIGHTS
+$font-weight: ( extra-light: 200, light: 300, regular: 400, semi-bold: 600, bold: 700, black: 900);
+//FAMILIES
+$font-family: ( primary: ('Times new roman', serif), secondary: ('Source Sans Pro', sans-serif));
+////////////////////////////////COLORS///////////////////////////
+$primary-color: #111;
+$secondary-color: #fff;
+$hover-color: lighten($primary-color, 70%);
+////////////////////////////////GRID/////////////////////////////
+
+/**************************************************************/
+
+// grid variables
+$grid-columns: 12;
+$grid-max-width: $max-width; // grid breakpoints
+$breakpoint-grid: "only screen and (min-width: 75em)";
+//////////////////////////VERTICAL SPACE BREAKPOINTS//////////////
+$vertical-breakpoint-small: px-to-rem(280px);
+$vertical-breakpoint-medium: px-to-rem(480px);
+$vertical-breakpoint-large: px-to-rem(840px);
+$vertical-breakpoint-xlarge: px-to-rem(1024px);
+
+
+
+// Settings
+// ==================================================
+$hamburger-padding-x                       : 1rem !default;
+$hamburger-padding-y                       : 1rem !default;
+$hamburger-layer-width                     : 40px !default;
+$hamburger-layer-height                    : 4px!default;
+$hamburger-layer-spacing                   : 6px !default;
+$hamburger-layer-color                     : #fff !default;
+$hamburger-layer-border-radius             : 4px !default;
+$hamburger-hover-opacity                   : 0.7 !default;
+$hamburger-hover-transition-duration       : 0.15s !default;
+$hamburger-hover-transition-timing-function: linear !default;
+
+// To use CSS filters as the hover effect instead of opacity,
+// set $hamburger-hover-use-filter as true and
+// change the value of $hamburger-hover-filter accordingly.
+$hamburger-hover-use-filter: false !default;
+$hamburger-hover-filter    : opacity(50%) !default;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

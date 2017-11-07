@@ -1,0 +1,56 @@
+.contactar {
+    @include clearfix;
+    width: 100%;
+    max-width: $max-width;
+    min-width: $min-width;
+    margin-top: 1rem;
+    height: 12rem;
+     @include vertical-break-small {
+        height: 2rem;
+    }
+    @include vertical-break-medium {
+        height: 4rem;
+    }
+    @include vertical-break-large {
+        height: 6rem;
+    }
+    @include vertical-break-large {
+        height: 6rem;
+    }
+}
+
+.flex-column-container.center {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-column-container.center>* {
+    width: 60%;
+    height: auto;
+    align-self: center;
+    padding: 0;
+}
+
+.copyright {
+    width: 100%;
+    max-width: $max-width;
+    min-width: $min-width;
+    padding-top: 2rem;
+    background-color: $secondary-color;
+    h2 {
+        padding: 2rem;
+        &:before {
+            font-family: FontAwesome;
+            content: '\f1f9';
+            padding-right: 0.5rem;
+        }
+    }
+}
+
+address {
+    width: 100%;
+}

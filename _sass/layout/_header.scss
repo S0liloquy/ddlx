@@ -1,0 +1,50 @@
+header.below-fold {
+    width: 100%;
+    max-width: $max-width;
+    min-width: $min-width;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+}
+
+header {
+    &.above-fold,
+    &.contactos{
+        background-color: $primary-color;
+        max-height: 900px;
+        padding: 0 0 3rem 0;
+        .titulo-seccao {
+            padding-top: 10rem;
+        }
+        .subtitulo-seccao {
+            padding: 2rem 0 0;
+            background-color: $primary-color;
+        }
+        .subtitulo2-seccao {
+            padding: 1rem 0;
+        }
+        .scroll {
+            height: 4rem;
+            padding-bottom: 2rem;
+            padding-top: 5rem;
+        }
+    }
+}
+
+.entrada-seccao {
+    padding: 0;
+}
+
+.titulo-seccao {
+    width: 100%;
+    margin: 0 auto;
+    padding: 6rem 0 0;
+}
+
+.subtitulo-seccao {
+    padding: 1rem 0;
+    background-color: $secondary-color;
+}

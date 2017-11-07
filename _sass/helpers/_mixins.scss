@@ -1,0 +1,100 @@
+@import 'variables';
+@mixin clearfix {
+    &:after {
+        content: '';
+        display: table;
+        line-height: 0;
+        clear: both;
+    }
+}
+
+@mixin assistive {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+
+@mixin replace_img ($img_url, $width, $height) {
+    display: inline-block;
+    width: $width;
+    height: $height;
+    text-indent: -9999rem;
+    direction: ltr;
+    background: url($img_url);
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    background-position: center;
+}
+
+@mixin border-box {
+    box-sizing: border-box;
+}
+
+@mixin navigation-break {
+    @media screen and (max-width: 48rem) {
+        height: 5rem;
+        border-bottom: 1px solid $secondary-color;
+        ul.navigation {
+            visibility: hidden;
+            &.is-visible {
+                margin: 5rem auto;
+                border: none;
+                width: 100%;
+                justify-content: center;
+                li {
+                    text-align: center;
+                    width: 100%;
+                    align-self: center;
+                }
+            }
+        }
+        ul.logo {
+            display: none;
+        }
+        #hamburger {
+            visibility: visible;
+        }
+        &.drop {
+            height: 20rem;
+            background-color: $primary-color;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+@mixin vertical-break-small {
+    @media screen and (min-width: $vertical-breakpoint-small) {
+        @content;
+    }
+}
+
+@mixin vertical-break-medium {
+    @media screen and (min-width: $vertical-breakpoint-medium) {
+        @content;
+    }
+}
+
+@mixin vertical-break-large {
+    @media screen and (min-width: $vertical-breakpoint-large) {
+        @content;
+    }
+}
+
+
+@mixin vertical-break-xlarge {
+    @media screen and (min-width: $vertical-breakpoint-xlarge) {
+        @content;
+    }
+}

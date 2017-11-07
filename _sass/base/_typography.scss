@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700');
+.titulo-seccao {
+    color: $primary-color;
+    font-weight: font-weight(bold);
+    text-align: center;
+    @extend %hero;
+}
+
+.subtitulo-seccao {
+    @extend %bq;
+    font-family: font-family(secondary);
+    font-weight: font-weight(light);
+    color: $primary-color;
+    text-align: center;
+}
+
+.subtitulo2-seccao {
+    @extend .subtitulo-seccao;
+    @extend %p;
+}
+
+.contactar,
+.scroll,
+.icon {
+    @extend %bq;
+    color: $primary-color;
+    text-align: center;
+    font-weight: font-weight(semi-bold);
+    font-style: italic;
+}
+
+.entrada-seccao {
+    @extend %p;
+    font-family: font-family(secondary);
+    font-weight: font-weight(light);
+    text-align: center;
+}
+
+nav {
+    a {
+        @extend %p;
+        font-family: font-family(secondary);
+        color: $secondary-color;
+        font-weight: font-weight(semi-bold);
+      
+        
+    }
+}
+
+a,
+article address p {
+    @extend %p;
+    text-decoration: none;
+    font-family: font-family(primary);
+    font-weight: font-weight(light);
+    color: $primary-color;
+}
+
+article h3 {
+    @extend %bq;
+    font-family: font-family(secondary);
+    font-weight: font-weight(bold);
+    color: $primary-color;
+    font-variant: small-caps;
+    padding-top: 0.5rem;
+}
+
+article p {
+    @extend %p;
+    font-family: font-family(secondary);
+    font-weight: font-weight(light);
+    color: $primary-color;
+}
+
+header {
+    &.above-fold,
+    &.contactos {
+        .subtitulo-seccao,
+        .titulo-seccao,
+        .entrada-seccao {
+            color: $secondary-color;
+        }
+        .subtitulo2-seccao {
+            font-family: font-family(secondary);
+            @extend %p;
+            font-weight: font-weight(semi-bold);
+        }
+        .scroll {
+            @extend %p;
+            font-weight: font-weight(light);
+            color: $secondary-color;
+        }
+    }
+}
+
+.copyright h2 {
+    font-family: font-family(secondary);
+    @extend %p;
+    text-align: center;
+    font-weight: font-weight(light);
+    color: $primary-color;
+}
+
+p.icon:before {
+    font-family: "FontAwesome";
+    content: $fa-var-envelope-o;
+    @extend %bq;
+    color: $primary-color;
+    font-style: normal;
+    font-weight: font-weight(light);
+    &:hover {
+        background-color: $hover-color;
+        color: $primary-color;
+    }
+    &:focus {
+        background-color: $hover-color;
+        color: $primary-color;
+    }
+    &:active {
+        background-color: $hover-color;
+        color: $primary-color;
+    }
+}
+
+p.chevron:after {
+    font-family: "FontAwesome";
+    content: $fa-var-chevron-down;
+    @extend %bq;
+    color: $secondary-color;
+    font-style: normal;
+    font-weight: font-weight(light);
+}
+
+textarea::placeholder {
+    @extend %p;
+    font-family: font-family(secondary);
+    font-weight: font-weight(light);
+    color: $secondary-color;
+}
+
+button {
+    @extend %p;
+    font-family: font-family(secondary);
+    font-weight: font-weight(medium);
+    color: $primary-color;
+}
+
+aside p,
+aside label {
+    @extend %p;
+    font-family: font-family(secondary);
+    font-weight: font-weight(normal);
+    color: $secondary-color;
+}
+
+aside p.titulo {
+    @extend %bq;
+    font-family: font-family(secondary);
+    color: $secondary-color;
+    text-align: left;
+    font-weight: font-weight(semi-bold);
+}
+
+
+select {
+    @extend %p;
+    font-family: font-family(secondary);
+    font-weight: font-weight(light);
+    color: $secondary-color;
+}

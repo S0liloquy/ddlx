@@ -1,0 +1,72 @@
+--- 
+layout: null 
+title: "contactos" 
+date: 2017-04-12 22:11:39 +0100 
+categories: secções
+---
+
+<!-- inicio da secção contactos-->
+
+<section id=contactos class="contactos">
+    <header class="contactos">
+        <h2 class="titulo-seccao">Contactos</h2>
+        <p class="subtitulo-seccao">DDLX Design Comunicação</p>
+        <p class="entrada-seccao">converse connosco.</p>
+        <p class="entrada-seccao">nós temos todo o gosto em conversar consigo</p>
+    </header>
+    <div class="wraper">
+        <div class="l-wraper row">
+            
+            <div class="column-12-of-12">
+                <aside>
+                    <h2 class="assistive-hidden">Formulário de contacto</h2>
+                    
+                   <div class="formulario">
+                   <form action="http://dxd.andr3.net/projecto-ltd/" method="POST" id="contacto_form" target="_blank">
+                   <input type="hidden" name="nome-aluna" value="Lília Correia">
+
+
+                        <fieldset id="dados-remetente">
+                            <legend class="assistive-hidden">Dados Pessoais</legend>
+                            <div class="dados-pessoais">
+                                <p class="nome-label"> <label for="nome-remetente">Gostariamos de saber o seu nome</label> </p>
+
+                                <p class="nome-input"> <input id="nome-remetente" name="nome" type="text" required> </p>
+
+                            </div>
+
+                            <div class="email-contacto">
+                                <p class="email-label"> <label for="email">Indique também o seu email</label> </p>
+                                <p class="email-input"> <input id="email" name="email" type="email" required > </p>
+
+                            </div>
+                        </fieldset>
+                        <fieldset id="mensagem">
+                            <legend class="assistive-hidden">Mensagem</legend>
+                            <div class="assunto">                               
+                               
+                                <p> <select class="assunto-input" id="assuntos" required>
+                                    <option>Indique o assunto</option>
+                                    <option>pedido de orçamento</option>
+                                    <option>oferta de serviços</option>
+                                    <option>proposta de colaboração</option>
+                                    <option>outros</option>
+                                  </select>
+                                  </p>
+                            </div>
+                            <div class="mensagem">
+                                <p class="mensagem-label assistive-hidden"><label for="corpo-mensagem">Mensagem</label></p>
+                                <p class="mensagem-input"> <textarea id="corpo-mensagem" name="corpo-mensagem" placeholder="escreva aqui a sua mensagem" required></textarea>
+                                </p>
+                            </div>
+                        </fieldset>
+                        <div class="submit"><button class="submit" type="submit" form="contacto_form" value="Submit">Enviar mensagem</button></div>
+                    </form>
+                    </div> 
+                </aside>
+            </div>
+           
+        </div>
+    </div>
+</section>
+<!-- fim da secção contactos-->

@@ -1,0 +1,38 @@
+.action-call {
+    width: 50%;
+    margin: auto auto;
+    height: 8rem;
+    @include vertical-break-small {
+        height: 2rem;
+    }
+    @include vertical-break-medium {
+        height: 4rem;
+    }
+    @include vertical-break-large {
+        height: 6rem;
+    }
+    @include vertical-break-large {
+        height: 6rem;
+    }
+    &.icon {
+        padding: 4rem 0;
+        @include vertical-break-small {
+            padding: 0;
+        }
+        @include vertical-break-medium {
+            padding: 1rem 0;
+        }
+        @include vertical-break-large {
+            padding: 2.5rem 0;
+        }
+        @include vertical-break-xlarge {
+            padding: 2rem 0;
+        }
+        border-top: 1px solid $primary-color;
+    }
+    &.chevron {
+        text-align: center;
+    }
+}
+
+
