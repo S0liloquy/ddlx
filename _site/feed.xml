@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-10-09T16:54:22+01:00</updated><id>http://localhost:4000/</id><title type="html">Site DDLX</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</subtitle><entry><title type="html">contactos</title><link href="http://localhost:4000/sec%C3%A7%C3%B5es/2017/04/12/contactos.html" rel="alternate" type="text/html" title="contactos" /><published>2017-04-12T22:11:39+01:00</published><updated>2017-04-12T22:11:39+01:00</updated><id>http://localhost:4000/sec%C3%A7%C3%B5es/2017/04/12/contactos</id><content type="html" xml:base="http://localhost:4000/sec%C3%A7%C3%B5es/2017/04/12/contactos.html">&lt;!-- inicio da secção contactos--&gt;
+
+&lt;section id=contactos class=&quot;contactos&quot;&gt;
+    &lt;header class=&quot;contactos&quot;&gt;
+        &lt;h2 class=&quot;titulo-seccao&quot;&gt;Contactos&lt;/h2&gt;
+        &lt;p class=&quot;subtitulo-seccao&quot;&gt;DDLX Design Comunicação&lt;/p&gt;
+        &lt;p class=&quot;entrada-seccao&quot;&gt;converse connosco.&lt;/p&gt;
+        &lt;p class=&quot;entrada-seccao&quot;&gt;nós temos todo o gosto em conversar consigo&lt;/p&gt;
+    &lt;/header&gt;
+    &lt;div class=&quot;wraper&quot;&gt;
+        &lt;div class=&quot;l-wraper row&quot;&gt;
+            
+            &lt;div class=&quot;column-12-of-12&quot;&gt;
+                &lt;aside&gt;
+                    &lt;h2 class=&quot;assistive-hidden&quot;&gt;Formulário de contacto&lt;/h2&gt;
+                    
+                   &lt;div class=&quot;formulario&quot;&gt;
+                   &lt;form action=&quot;http://dxd.andr3.net/projecto-ltd/&quot; method=&quot;POST&quot; id=&quot;contacto_form&quot; target=&quot;_blank&quot;&gt;
+                   &lt;input type=&quot;hidden&quot; name=&quot;nome-aluna&quot; value=&quot;Lília Correia&quot;&gt;
+
+
+                        &lt;fieldset id=&quot;dados-remetente&quot;&gt;
+                            &lt;legend class=&quot;assistive-hidden&quot;&gt;Dados Pessoais&lt;/legend&gt;
+                            &lt;div class=&quot;dados-pessoais&quot;&gt;
+                                &lt;p class=&quot;nome-label&quot;&gt; &lt;label for=&quot;nome-remetente&quot;&gt;Gostariamos de saber o seu nome&lt;/label&gt; &lt;/p&gt;
+
+                                &lt;p class=&quot;nome-input&quot;&gt; &lt;input id=&quot;nome-remetente&quot; name=&quot;nome&quot; type=&quot;text&quot; required&gt; &lt;/p&gt;
+
+                            &lt;/div&gt;
+
+                            &lt;div class=&quot;email-contacto&quot;&gt;
+                                &lt;p class=&quot;email-label&quot;&gt; &lt;label for=&quot;email&quot;&gt;Indique também o seu email&lt;/label&gt; &lt;/p&gt;
+                                &lt;p class=&quot;email-input&quot;&gt; &lt;input id=&quot;email&quot; name=&quot;email&quot; type=&quot;email&quot; required &gt; &lt;/p&gt;
+
+                            &lt;/div&gt;
+                        &lt;/fieldset&gt;
+                        &lt;fieldset id=&quot;mensagem&quot;&gt;
+                            &lt;legend class=&quot;assistive-hidden&quot;&gt;Mensagem&lt;/legend&gt;
+                            &lt;div class=&quot;assunto&quot;&gt;                               
+                               
+                                &lt;p&gt; &lt;select class=&quot;assunto-input&quot; id=&quot;assuntos&quot; required&gt;
+                                    &lt;option&gt;Indique o assunto&lt;/option&gt;
+                                    &lt;option&gt;pedido de orçamento&lt;/option&gt;
+                                    &lt;option&gt;oferta de serviços&lt;/option&gt;
+                                    &lt;option&gt;proposta de colaboração&lt;/option&gt;
+                                    &lt;option&gt;outros&lt;/option&gt;
+                                  &lt;/select&gt;
+                                  &lt;/p&gt;
+                            &lt;/div&gt;
+                            &lt;div class=&quot;mensagem&quot;&gt;
+                                &lt;p class=&quot;mensagem-label assistive-hidden&quot;&gt;&lt;label for=&quot;corpo-mensagem&quot;&gt;Mensagem&lt;/label&gt;&lt;/p&gt;
+                                &lt;p class=&quot;mensagem-input&quot;&gt; &lt;textarea id=&quot;corpo-mensagem&quot; name=&quot;corpo-mensagem&quot; placeholder=&quot;escreva aqui a sua mensagem&quot; required&gt;&lt;/textarea&gt;
+                                &lt;/p&gt;
+                            &lt;/div&gt;
+                        &lt;/fieldset&gt;
+                        &lt;div class=&quot;submit&quot;&gt;&lt;button class=&quot;submit&quot; type=&quot;submit&quot; form=&quot;contacto_form&quot; value=&quot;Submit&quot;&gt;Enviar mensagem&lt;/button&gt;&lt;/div&gt;
+                    &lt;/form&gt;
+                    &lt;/div&gt; 
+                &lt;/aside&gt;
+            &lt;/div&gt;
+           
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- fim da secção contactos--&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">trabalhos</title><link href="http://localhost:4000/sec%C3%A7%C3%B5es/2016/04/03/trabalhos.html" rel="alternate" type="text/html" title="trabalhos" /><published>2016-04-03T21:11:39+01:00</published><updated>2016-04-03T21:11:39+01:00</updated><id>http://localhost:4000/sec%C3%A7%C3%B5es/2016/04/03/trabalhos</id><content type="html" xml:base="http://localhost:4000/sec%C3%A7%C3%B5es/2016/04/03/trabalhos.html">&lt;!--inicio da secção trabalhos --&gt;
+&lt;section id=trabalhos class=&quot;trabalhos&quot;&gt;
+    &lt;header class=&quot;below-fold&quot;&gt;
+        &lt;div class=&quot;container&quot;&gt;
+            &lt;h2 class=&quot;titulo-seccao&quot;&gt;Trabalhos&lt;/h2&gt;
+            &lt;p class=&quot;subtitulo-seccao&quot;&gt;TRABALHAMOS JUNTOS&lt;/p&gt;
+            &lt;p class=&quot;entrada-seccao&quot;&gt;Orgulhamo-nos do que fazemos e gostamos&lt;/p&gt;
+            &lt;p class=&quot;entrada-seccao&quot;&gt;de o partilhar com o mundo.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/header&gt;
+    &lt;div class=&quot;wraper&quot;&gt;
+        &lt;div class=&quot;l-wraper row&quot;&gt;
+            &lt;article class=&quot;column-6-of-12&quot;&gt;
+                &lt;a href=&quot;#&quot;&gt;
+                    &lt;div class=&quot;epicur imagem&quot;&gt;revista epicur&lt;/div&gt;
+                    &lt;h3&gt;epicur&lt;/h3&gt;
+                &lt;/a&gt;
+            &lt;/article&gt;
+            &lt;article class=&quot;column-6-of-12&quot;&gt;
+                &lt;a href=&quot;#&quot;&gt;
+                    &lt;div class=&quot;gulbenkian imagem&quot;&gt;newsletter gulbenkian&lt;/div&gt;
+                    &lt;h3&gt;newsletter gulbenkian&lt;/h3&gt;
+                &lt;/a&gt;
+            &lt;/article&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;l-wraper row&quot;&gt;
+            &lt;article class=&quot;column-7-of-12&quot;&gt;
+                &lt;a href=&quot;#&quot;&gt;
+                    &lt;div class=&quot;glosas imagem&quot;&gt;revista glosas&lt;/div&gt;
+                    &lt;h3&gt;revista glosas&lt;/h3&gt;
+                &lt;/a&gt;
+            &lt;/article&gt;
+            &lt;article class=&quot;column-5-of-12&quot;&gt;
+                &lt;a href=&quot;#&quot;&gt;
+                    &lt;div class=&quot;amnaz imagem&quot;&gt;amigos do museu nacional do azulejo&lt;/div&gt;
+                    &lt;h3&gt;outras edições&lt;/h3&gt;
+                &lt;/a&gt;
+            &lt;/article&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--link para contacto--&gt;
+    &lt;footer class=&quot;contactar&quot;&gt;
+        &lt;address class=&quot;&quot;&gt;
+                       
+                        &lt;a href=&quot;secções/2017-01-03-contactos.html&quot;&gt;
+                        &lt;div class=&quot;flex-column-container center&quot;&gt;
+                        &lt;p class=&quot;action-call icon&quot;&gt;&lt;/p&gt;
+                        &lt;p class=&quot;action-call contactar&quot;&gt;fale connosco&lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;/a&gt;
+                    
+                    &lt;/address&gt;
+    &lt;/footer&gt;
+    &lt;!--link para contacto--&gt;
+&lt;/section&gt;
+&lt;!-- fim da secção trabalhos--&gt;</content><author><name></name></author><summary type="html">Trabalhos TRABALHAMOS JUNTOS Orgulhamo-nos do que fazemos e gostamos de o partilhar com o mundo. revista epicur epicur newsletter gulbenkian newsletter gulbenkian revista glosas revista glosas amigos do museu nacional do azulejo outras edições fale connosco</summary></entry><entry><title type="html">filosofia</title><link href="http://localhost:4000/sec%C3%A7%C3%B5es/2014/04/02/filosofia.html" rel="alternate" type="text/html" title="filosofia" /><published>2014-04-02T20:11:39+01:00</published><updated>2014-04-02T20:11:39+01:00</updated><id>http://localhost:4000/sec%C3%A7%C3%B5es/2014/04/02/filosofia</id><content type="html" xml:base="http://localhost:4000/sec%C3%A7%C3%B5es/2014/04/02/filosofia.html">&lt;!--inicio da secção filosofia--&gt;
+&lt;section id=filosofia class=&quot;filosofia&quot;&gt;
+    &lt;header class=&quot;below-fold&quot;&gt;
+        &lt;div class=&quot;container&quot;&gt;
+            &lt;h2 class=&quot;titulo-seccao&quot;&gt;Filosofia&lt;/h2&gt;
+            &lt;p class=&quot;subtitulo-seccao&quot;&gt;SOMOS DESIGNERS&lt;/p&gt;
+            &lt;p class=&quot;entrada-seccao&quot;&gt;Encaramos o design como forma eficaz de comunicação,&lt;/p&gt;
+            &lt;p class=&quot;entrada-seccao&quot;&gt;e a maneira mais útil de transformar ideias em objectos&lt;/p&gt;
+            &lt;p class=&quot;entrada-seccao&quot;&gt;de divulgação e promoção.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/header&gt;
+    &lt;div class=&quot;wraper&quot;&gt;
+        &lt;article class=&quot;l-wraper row&quot;&gt;
+            &lt;div class=&quot;column-5-of-12&quot;&gt;
+
+                &lt;div class=&quot;teofilo imagem&quot;&gt;Fotografia de Teófilo Duarte&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;column-7-of-12&quot;&gt;
+                &lt;div class=&quot;flex-column-container&quot;&gt;
+                    &lt;footer&gt;
+                        &lt;h3&gt;teófilo duarte&lt;/h3&gt;
+                        &lt;address&gt;
+                                 &lt;a href=&quot;mailto:teofilo@ddlx.pt&quot;&gt;
+                                    &lt;p&gt;teofilo@ddlx.pt&lt;/p&gt;
+                                 &lt;/a&gt;
+                            &lt;/address&gt;
+                    &lt;/footer&gt;
+                    &lt;p&gt;Nasceu com imenso cabelo. Ao segundo dia já usava risco ao meio. Começou a falar também cedo e começou logo a fazer perguntas. Não se calava. Depois convenceu-se de que sabia tudo e desatou a tentar resolver os problemas do mundo. Como para isso teria que se meter na política como ofício, desistiu e pôs-se a olhar para tudo como se tudo fosse uma obra de um deus. Percebeu logo que não era bem assim e com essa conclusão começou a culpar os homens da sua própria existência. Quando quis fazer pela vida foi aprender a olhar melhor para as coisas. Ainda anda a aprender. Deixou de culpar os outros e agora culpa-se a si próprio de tudo o que faz. Faz design gráfico e de comunicação, mas gosta sobretudo de ser art director porque acha que é essa a melhor maneira de estar com os outros e de aprender com eles. Entretanto ficou com menos cabelo. Quando isso começou, convenceu-se de que estava tudo por acontecer. Tem um lema de vida nada original, mas que é o que é: aprender até morrer. Não faz outra coisa.
+                    &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/article&gt;
+        &lt;article class=&quot;l-wraper row&quot;&gt;
+
+            &lt;div class=&quot;column-5-of-12&quot;&gt;
+
+
+                &lt;div class=&quot;joao imagem&quot;&gt;Fotografia de João Silva&lt;/div&gt;&lt;/div&gt;
+            &lt;div class=&quot;column-7-of-12&quot;&gt;
+                &lt;div class=&quot;flex-column-container&quot;&gt;
+                    &lt;footer&gt;
+                        &lt;h3&gt;joão silva&lt;/h3&gt;
+                        &lt;address&gt;
+                                 &lt;a href=&quot;mailto:joao@ddlx.pt&quot;&gt;
+                                    &lt;p&gt;joao@ddlx.pt&lt;/p&gt;
+                                 &lt;/a&gt;
+                            &lt;/address&gt;
+                    &lt;/footer&gt;
+                    &lt;p&gt;Nasceu em 1987, em Lisboa. Cresceu na Bobadela e aos 16 anos começou a aventura na grande cidade através da Escola Secundária Artística António Arroio, onde aprendeu mais do que em todas as outras escolas que frequentou. Tirou o curso de Audiovisuais e Multimédia, vertente Fotografia, e depois escorregou um ano pelo curso de Som I, na Restart, vindo a pegar mais tarde de novo no Audiovisual, na Escola Superior de Comunicação Social de Lisboa, onde surgiu com mais ênfase o interesse pelo design gráfico. Desde cedo toca guitarra e hoje em dia divide o tempo entre a vida musical (JIBÓIA, Papaya), e a vida de designer no atelier DDLX.
+                    &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+        &lt;/article&gt;
+        &lt;article class=&quot;l-wraper row&quot;&gt;
+            &lt;div class=&quot;column-5-of-12&quot;&gt;
+                &lt;div class=&quot;lilia imagem&quot;&gt;Fotografia de Lília Correia&lt;/div&gt;&lt;/div&gt;
+            &lt;div class=&quot;column-7-of-12&quot;&gt;
+                &lt;div class=&quot;flex-column-container&quot;&gt;
+                    &lt;footer&gt;
+                        &lt;h3&gt;lilia correia&lt;/h3&gt;
+                        &lt;address&gt;
+                                 &lt;a href=&quot;mailto:lilia@ddlx.pt&quot;&gt;
+                                     &lt;p&gt;lilia@ddlx.pt&lt;/p&gt;
+                                 &lt;/a&gt;
+                            &lt;/address&gt;
+                    &lt;/footer&gt;
+                    &lt;p&gt;Nasceu num verão quente na planície alentejana com a pressa de quem não tem calma nenhuma. Cedo procurou a cidade cumprindo o sonho de ser engenheira. Não tardou a perder a paciência com tanto algoritmo. Não foi tempo perdido. Sem esperar muito formou-se em Audiovisual e Multimédia na Escola Superior de Comunicação Social, onde conheceu o João, com quem trabalha. Há algum tempo é designer gráfica e web no atelier DDLX. Recentemente ingressou na aventura de saber mais sobre usabilidade. Divide o tempo entre o atelier e a pós-graduação em Design da Experiencia do Utilizador na Faculdade de Belas Artes. Sente falta da calma que nunca teve.
+                    &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/article&gt;
+    &lt;/div&gt;
+
+    &lt;!--link para contacto--&gt;
+    &lt;footer class=&quot;contactar contactar-btn&quot;&gt;
+        &lt;address&gt;
+                       
+                        &lt;a href=&quot;mailto:ddlx@ddlx.pt&quot;&gt;
+                        &lt;div class=&quot;flex-column-container center&quot;&gt;
+                        &lt;p class=&quot;action-call icon&quot;&gt;&lt;/p&gt;
+                        &lt;p class=&quot;action-call contactar&quot;&gt;fale connosco&lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;/a&gt;
+                    
+                    &lt;/address&gt;
+    &lt;/footer&gt;
+    &lt;!--link para contacto--&gt;
+&lt;/section&gt;
+&lt;!-- fim da secção filosofia--&gt;</content><author><name></name></author><summary type="html">Filosofia SOMOS DESIGNERS Encaramos o design como forma eficaz de comunicação, e a maneira mais útil de transformar ideias em objectos de divulgação e promoção.</summary></entry></feed>
